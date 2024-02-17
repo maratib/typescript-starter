@@ -1,7 +1,7 @@
 # Typescript starter with TSUP, TSX and MOCHA testing enabled
 
 You can develop typescript based NPM packages using this starter.
-It enables testing, building and packaging your code as NPM package pretty quickly.
+It enables testing, building and packaging your code as NPM package pretty easy.
 
 ### Setup
 
@@ -18,8 +18,11 @@ tsc --init
 npm link
 
 # Create another test project and link the npm package locally with
-npm link name-of-package
-#in this case npm link npm-demo-ts
+npm link name-of-package #in this case npm link typescript-starter
+
+# To unlink
+npm unlink name-of-package
+
 ```
 
 ### Publishing your package to NPM
