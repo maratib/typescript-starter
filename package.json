@@ -1,18 +1,24 @@
 {
   "name": "typescript-starter",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsx ./src/index.ts",
     "test": "mocha",
-    "build": "tsc"
+    "build": "tsup"
   },
   "devDependencies": {
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",
     "chai": "^5.1.0",
     "mocha": "^10.3.0",
+    "tsup": "^8.0.2",
     "tsx": "^4.7.1",
     "typescript": "^5.3.3"
   }
