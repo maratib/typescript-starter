@@ -1,7 +1,24 @@
 {
   "name": "typescript-starter",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "description": "Typescript package/library description",
+  "private": false,
+  "keywords": [
+    "tailwindcss",
+    "vue",
+    "tailwindVue"
+  ],
+  "author": {
+    "name": "Maratib Ali Khan",
+    "email": "maratib@gmail.com",
+    "url": "https://maratib.github.io/"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/maratib/typescript-starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maratib/typescript-starter.git"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
