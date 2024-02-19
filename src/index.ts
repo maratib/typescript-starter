@@ -1,5 +1,8 @@
-console.log("Let's build something amazing using typescript!");
+import { greetings } from "@/common/utils";
 
 export function addition(a: number, b: number): number {
   return a + b;
 }
+
+greetings();
+console.log(addition(2, 3));
