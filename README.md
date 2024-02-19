@@ -31,3 +31,7 @@ npm unlink name-of-package
 npm login
 npm publish
 ```
+
+### References
+
+[Mocha for TypeScript Testing](https://www.testim.io/blog/mocha-for-typescript-testing/)
