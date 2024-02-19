@@ -4,9 +4,9 @@
   "description": "Typescript package/library description",
   "private": false,
   "keywords": [
-    "tailwindcss",
-    "vue",
-    "tailwindVue"
+    "typescript",
+    "package",
+    "library"
   ],
   "author": {
     "name": "Maratib Ali Khan",
